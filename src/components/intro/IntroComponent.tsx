@@ -34,6 +34,7 @@ const IntroComponent = () => {
         volume={1}
         width="100%"
         height="100%"
+        controls
       />
       <div className={`content ${visible ? 'description-visible' : 'description-hidden'}`}>
         {visible && <WelcomeComponent name="Recruiter" />}

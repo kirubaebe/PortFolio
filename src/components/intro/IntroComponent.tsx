@@ -17,7 +17,7 @@ const IntroComponent = () => {
     const introTimer = setTimeout(() => {
       setVisible(false);
       navigate('/home');
-    }, 3000);
+    }, 38000);
 
     return () => {
       clearTimeout(descriptionTimer);
